@@ -141,7 +141,7 @@ matrix:
       if: branch = master
       osx_image: xcode9
       compiler: clang
-      env: COMPILER=clang CLANG=9.0 ENABLE_OPENMP=1 DISABLE_XSIMD=1
+      # env: COMPILER=clang CLANG=9.0 ENABLE_OPENMP=1 DISABLE_XSIMD=1
 env:
   global:
     - MINCONDA_VERSION="latest"
